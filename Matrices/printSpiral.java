@@ -23,6 +23,9 @@ public class printSpiral {
 
             for(int j=endCol-1;j>=startCol;j--){
                 System.out.print(arr[endRow][j]+" ");
+                if(startCol==endCol){
+                    return;
+                }
             }
 
             //left
